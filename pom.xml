@@ -99,7 +99,11 @@
                         <version>1.2.0</version>
                     </dependency>
                 </dependencies>
-                <configuration>
+                <configuration>    
+			<repository>
+			    <id>docker.io</id>
+			    <url>https://index.docker.io/v1/</url>
+			</repository>	
                     <repository>renatogomes256/teste-jenkins</repository>
                     <tag>${project.version}</tag>
                     <buildArgs>
@@ -110,14 +114,5 @@
             </plugin>
 		</plugins>
 	</build>
-	<repositories>
-        <!--<repository>-->
-        <!--    <id>aliyun-docker</id>-->
-        <!--    <url>registry.cn-hangzhou.aliyuncs.com</url>-->
-        <!--</repository>        -->
-        <repository>
-            <id>docker.io</id>
-            <url>https://index.docker.io/v1/</url>
-        </repository>
 
 </project>
