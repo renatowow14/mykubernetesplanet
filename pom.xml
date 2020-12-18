@@ -100,7 +100,7 @@
                     </dependency>
                 </dependencies>
                 <configuration>
-                    <repository>localhost:5000/newrepo</repository>
+                    <repository>172.18.0.3:5000/newrepo</repository>
                     <tag>${project.version}</tag>
 		    <useMavenSettingsForAuth>true</useMavenSettingsForAuth>	
                     <buildArgs>
