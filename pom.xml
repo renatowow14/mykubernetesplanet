@@ -100,7 +100,7 @@
                     </dependency>
                 </dependencies>
                 <configuration>
-                    <repository>renatogomes256/teste-jenkins</repository>
+                    <repository>localhost:5000/newrepo</repository>
                     <tag>${project.version}</tag>
 		    <useMavenSettingsForAuth>true</useMavenSettingsForAuth>	
                     <buildArgs>
