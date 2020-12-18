@@ -100,7 +100,7 @@
                     </dependency>
                 </dependencies>
                 <configuration>
-                    <repository>${docker.image.prefix}/${project.artifactId}</repository>
+                    <repository>renatogomes256/teste-jenkins</repository>
                     <tag>${project.version}</tag>
 		    <useMavenSettingsForAuth>true</useMavenSettingsForAuth>	
                     <buildArgs>
