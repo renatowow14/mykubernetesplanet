@@ -100,7 +100,7 @@
                     </dependency>
                 </dependencies>
                 <configuration>
-                    <repository>localhost:5000/newrepo</repository>
+                    <repository>renatogomes256/teste-jenkins</repository>
                     <tag>${project.version}</tag>
                     <buildArgs>
                         <JAR_FILE>target/${project.build.finalName}.jar</JAR_FILE>
