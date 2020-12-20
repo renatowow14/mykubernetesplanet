@@ -88,11 +88,17 @@
                 </executions>
                 <!-- Necessary because the Maven Archiver plugin is not yet ready for java 9/10 -->
                 <dependencies>
-                    <dependency>
+                    <dependency>	    
                         <groupId>org.codehaus.plexus</groupId>
                         <artifactId>plexus-archiver</artifactId>
                         <version>3.4</version>
                     </dependency>
+	        <dependency>
+		    <groupId>com.spotify</groupId>
+		    <artifactId>docker-client</artifactId>
+		    <classifier>shaded</classifier>
+		    <version>8.10.0</version>
+ 		 </dependency>
                     <dependency>
                         <groupId>javax.activation</groupId>
                         <artifactId>javax.activation-api</artifactId>
